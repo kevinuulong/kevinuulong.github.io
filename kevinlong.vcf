@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Kevin W Long
+N:Long;Kevin;W;;
+NICKNAME:Kevin
+EMAIL;TYPE=INTERNET;TYPE=WORK:kevin.uu.long@gmail.com
+TEL;TYPE=WORK:(513) 815-6620
+item1.TEL:(513) 815-6620
+item1.X-ABLabel:Work
+item2.ADR:;;;Cincinnati;OH;;US
+item2.X-ABLabel:
+BDAY:20030121
+item3.URL:https\://kevinuulong.github.io
+item3.X-ABLabel:homePage
+NOTE:LinkedIN\: kevinuulong\nTwitter\: @kevinuulong\nInstagram\: @kevinuulo
+ ng\nGithub\: @kevinuulong\nSnapchat\: @kevinuulong
+PHOTO:https://lh4.googleusercontent.com/-SKbo9doPfNM/XEOfUU0beGI/AAAAAAAAAA
+ A/K2iJUHLURWQ0jrEr2aG7HFnAxAe2uJLdQCOQCEAE/photo.jpg
+END:VCARD

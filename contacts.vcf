@@ -1,9 +1,0 @@
-BEGIN:VCARD
-VERSION:3.0
-FN:Test Contact
-N:Contact;Test;;;
-item1.EMAIL;TYPE=INTERNET:test@example.com
-item1.X-ABLabel:
-item2.TEL:(345) 555-9876
-item2.X-ABLabel:
-END:VCARD
