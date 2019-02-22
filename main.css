@@ -1,20 +1,30 @@
+html, body{
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
 @font-face{
     font-family: 'icons';
     src: url('fonts/icons.woff'),
          url('fonts/icons.eot');
 }
+#one{
+    height: 100vh;
+}
 
-html, body{
-    margin: 0px;
+#two{
+    height: 140vh;
+}
+#three{
+    height: 150vh;
 }
 #bkg1{
-    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    position: absolute;
     width: 100vw;
     height: 100vh;
     padding: 0px;
     margin: 0px;
 }
-
 #card1{
     background-color: white;
     width: 385px;
@@ -26,8 +36,13 @@ html, body{
     transform: translate(-50%, -50%);
     border-radius: 35px;
     box-shadow: 0px 0px 7px #8c8c8c;
+    overflow: hidden;
 }
-
+#iframe{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
 #card1contents{
     display: table;
     width: 75%;
@@ -39,7 +54,21 @@ html, body{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    padding: 0px;
+    padding: 0px
+}
+#card2contentsh1{
+    display: table-row;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+#hr{
+    margin-top: 200px;
+}
+#mom{
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 #card1contentsimg{
     display: table-row;
@@ -47,6 +76,12 @@ html, body{
 }
 
 #card1contentsh2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+#card2contentsh2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -81,10 +116,6 @@ br{
 
 a{
     text-decoration: none;
-    color: #8c8c8c;
-}
-a:link{
-    color: #8c8c8c;
 }
 a:visited{
     color: #8c8c8c;
@@ -119,4 +150,21 @@ a:visited{
 }
 #stackoverflow:hover{
     color: #f48024;
+}
+.title{
+    font-family: 'MOntserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12vmin;
+    margin-left: 3vw;
+}
+.description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6vmin;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    color: #8C8C8C;
+}
+#creativeskills{
+    margin-left: 3vw;
+    width: 20vmax;
 }
