@@ -42,6 +42,8 @@ html, body{
     position: absolute;
     left: 0px;
     top: 0px;
+    width: 385px;
+    height: 216px;
 }
 #card1contents{
     display: table;
@@ -69,10 +71,13 @@ html, body{
     position: absolute;
     left: 0px;
     top: 0px;
+    width: 385px;
+    height: 216px;
 }
 #card1contentsimg{
     display: table-row;
     margin: auto;
+    width: 160px;
 }
 
 #card1contentsh2{
@@ -116,6 +121,7 @@ br{
 
 a{
     text-decoration: none;
+    color: #8c8c8c;
 }
 a:visited{
     color: #8c8c8c;
@@ -168,3 +174,87 @@ a:visited{
     margin-left: 3vw;
     width: 20vmax;
 }
+
+@media only screen and (max-width: 400px){
+    #card1{
+        background-color: white;
+        width: 300px;
+        height: 398px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        border-radius: 35px;
+        box-shadow: 0px 0px 7px #8c8c8c;
+        overflow: hidden;
+    }
+    #card1contentssocial{
+        font-size: 23px;
+    }
+    #card1contentsa, h3{
+        text-decoration: none;
+        background-color: #6c77bc;
+        margin: auto;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        color: white;
+        border-radius: 35px;
+        width: 213px;
+        height: 26px;
+        padding-top: 6.5px;
+    }
+    #card1contentsh2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 11.3px;
+        margin-bottom: 18.8px;
+    }
+    #card2contentsh2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 11.3px;
+        margin-bottom: 18.8px;
+    }
+    #hr{
+        margin-top: 150.7px;
+    }
+    #card1contents{
+        display: table;
+        width: 75%;
+        margin: 37.7px;
+    }
+    #card1contentsimg{
+        display: table-row;
+        margin: auto;
+        width: 120.6px;
+    }
+    #card1contentsh1{
+        display: table-row;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        padding: 0px
+    }
+    #card2contentsh1{
+        display: table-row;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    #mom{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 300px;
+        height: 169px;
+    }
+    #iframe{
+        width: 300px;
+        height: 169px;
+    }
+} 
