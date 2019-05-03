@@ -263,7 +263,7 @@ a:visited{
 ::-webkit-scrollbar {
   width: 8px; /* 1px wider than Lion. */
   /* This is more usable for users trying to click it. */
-  background-color: rgba(0,0,0,0);
+  background-color: transparent;
   -webkit-border-radius: 100px;
 }
 /* hover effect for both scrollbar area, and scrollbar 'thumb' */
