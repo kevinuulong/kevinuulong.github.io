@@ -30,6 +30,6 @@ I am currently in the early stages of finishing the redesign. I have a few diffe
 2. Works well on all devices (This includes desktop vs. mobile, and technical differences in Chromium, Safari, etc.)
 3. Loads well on all connections (even less than 5mbps)
 
-![one potential new design](/images/newdesign.jpg)
+![one potential new design](/images/newwebsite.jpg)
 
 This blog is currently built with a template; however, it is built using Gatsby so once I finalize my custom theme all the current content should transfer over just fine. This is bound to be a challenging process but it is something worth doing and a challenge I look forward to solving.
