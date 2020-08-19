@@ -22,7 +22,7 @@ Over the next few weeks I will be working to streamline this new blog section of
 
 When I first started developing this site I had no clue what I was doing. I have since started many sub-projects all using the kevinuulong.com domain. Since when I designed the main page I had only had the creation of a basic contact and about me section planned, it is not well suited to all the sub-projects and other content that has sprung up since then.
 
-![old website](/media/oldwebsite.jpg)
+![old website](/images/oldwebsite.jpg)
 >The current and original landing page. Note the absence of tabs of any sort.
 
 In the near future I hope to completely revamp not only the main page, but also all the sub-pages for every sub-project that is on the domain.
@@ -35,7 +35,7 @@ I am currently in the early stages of finishing the redesign. I have a few diffe
 2. Works well on all devices (This includes desktop vs. mobile, and technical differences in Chromium, Safari, etc.)
 3. Loads well on all connections (even less than 5mbps)
 
-![one potential new design](/media/newwebsite.jpg)
+![one potential new design](/images/newwebsite.jpg)
 >A preview of one of the current design ideas.
 
 This blog is currently built with a template; however, it is built using Gatsby so once I finalize my custom theme all the current content should transfer over just fine. This is bound to be a challenging process but it is something worth doing and a challenge I look forward to solving.
