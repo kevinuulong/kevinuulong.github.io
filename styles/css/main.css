@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons+Round");
+@font-face {
+  font-family: "social-icons";
+  src: url("/fonts/social-icons.eot?1edmoo");
+  src: url("/fonts/social-icons.eot?1edmoo#iefix") format("embedded-opentype"), url("/fonts/social-icons.ttf?1edmoo") format("truetype"), url("/fonts/social-icons.woff?1edmoo") format("woff"), url("/fonts/social-icons.svg?1edmoo#social-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "social-icons" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e900";
+}
+
+.icon-linkedin:before {
+  content: "\e901";
+}
+
+.icon-gmail:before {
+  content: "\e902";
+}
+
+.icon-twitter:before {
+  content: "\e903";
+}
+
+.icon-instagram:before {
+  content: "\e904";
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #F0F0F6;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+p {
+  font-size: 21px;
+  line-height: 26px;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+*::-moz-selection {
+  background: #2F80ED;
+  color: #FFFFFF;
+}
+
+*::selection {
+  background: #2F80ED;
+  color: #FFFFFF;
+}
+
+*.bkg.blue *::-moz-selection:not(h1, b) {
+  background: #FFFFFF;
+  color: #2F80ED;
+}
+
+*.bkg.blue *::selection:not(h1, b) {
+  background: #FFFFFF;
+  color: #2F80ED;
+}
+
+.blue {
+  color: #2F80ED;
+}
+
+.blue.bkg {
+  background: #2F80ED;
+  color: #FFFFFF;
+}
+
+.green {
+  color: #2DDB73;
+}
+
+.green.bkg {
+  background: #2DDB73;
+  color: #2B2C30;
+}
+
+.orange {
+  color: #F2994A;
+}
+
+.orange.bkg {
+  background: #F2994A;
+  color: #2B2C30;
+}
+
+.purple {
+  color: #9B51E0;
+}
+
+.purple.bkg {
+  background: #9B51E0;
+  color: #FFFFFF;
+}
+
+.red {
+  color: #EB5757;
+}
+
+.red.bkg {
+  background: #EB5757;
+  color: #FFFFFF;
+}
+
+.white {
+  color: #2B2C30;
+}
+
+.white.bkg {
+  background: #FFFFFF;
+  color: #2B2C30;
+}
+
+.card {
+  border-radius: 28px;
+  padding: 28px;
+  position: relative;
+}
+
+.logo {
+  height: 56px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#info {
+  width: 364px;
+  height: 448px;
+  margin: 28px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#about {
+  width: 420px;
+  height: 504px;
+  margin: 28px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 56px;
+  display: inline-block;
+  padding: 28px;
+  vertical-align: top;
+}
+
+#header {
+  width: calc(100% - $size * 2);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 28px;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  text-decoration: none;
+  color: #2B2C30;
+  font-size: 28px;
+  line-height: 28px;
+  padding-right: 14px;
+}
+
+#icons {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+  border-radius: 14px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.material-icons-round {
+  font-size: 28px;
+  line-height: 56px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#contact {
+  width: 280px;
+  height: 56px;
+  line-height: 56px;
+  position: absolute;
+  bottom: 28px;
+}
+
+#download {
+  right: 28px;
+  bottom: 28px;
+  position: absolute;
+  width: 56px;
+  height: 56px;
+}
+
+#labels {
+  color: #2B2C30;
+  padding: 28px;
+}
+
+#labels h2 {
+  margin: 28px;
+  width: 364px;
+}
+
+#labels p {
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-bottom: 0;
+  width: 364px;
+}
+
+#projects {
+  width: calc(100% - 28px * 2);
+  padding: 28px;
+  padding-top: 0;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: (308px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 308px);
+  -webkit-column-gap: 56px;
+          column-gap: 56px;
+}
+
+#projects .project {
+  width: 252px;
+  height: 252px;
+  margin: 28px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#projects .project .gist {
+  display: none;
+}
+
+#projects .project div {
+  bottom: 0;
+  position: absolute;
+  width: 252px;
+}
+
+#projects .project h2 {
+  margin-bottom: 14px;
+}
+
+#projects .project .material-icons-round {
+  line-height: 28px;
+  position: absolute;
+  right: 28px;
+}
+
+#projects .project:hover {
+  -webkit-box-shadow: 0 0 0 28px #2F80ED;
+          box-shadow: 0 0 0 28px #2F80ED;
+}
+
+#projects .project:hover .gist {
+  display: block;
+  position: absolute;
+  height: calc(100% - $size * 2);
+  width: 308px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  top: 0;
+  right: -364px;
+  border-radius: 0 28px 28px 0;
+  -webkit-box-shadow: 0 0 0 28px #2F80ED;
+          box-shadow: 0 0 0 28px #2F80ED;
+  z-index: 99;
+}
+
+#projects .project:hover .gist p {
+  width: 280px;
+}
+
+#projects .project:hover .gist h2 {
+  width: 280px;
+}
+
+#projects .project:hover::after {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 28px 0 0 28px;
+  -webkit-box-shadow: 0 0 0 28px #2F80ED;
+          box-shadow: 0 0 0 28px #2F80ED;
+}
+/*# sourceMappingURL=main.css.map */

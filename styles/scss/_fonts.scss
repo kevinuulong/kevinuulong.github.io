@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons+Round");
+
+// Social Icons
+@font-face {
+	font-family: "social-icons";
+	src: url("/fonts/social-icons.eot?1edmoo");
+	src: url("/fonts/social-icons.eot?1edmoo#iefix") format("embedded-opentype"),
+		url("/fonts/social-icons.ttf?1edmoo") format("truetype"),
+		url("/fonts/social-icons.woff?1edmoo") format("woff"),
+		url("/fonts/social-icons.svg?1edmoo#social-icons") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "social-icons" !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+	content: "\e900";
+}
+.icon-linkedin:before {
+	content: "\e901";
+}
+.icon-gmail:before {
+	content: "\e902";
+}
+.icon-twitter:before {
+	content: "\e903";
+}
+.icon-instagram:before {
+	content: "\e904";
+}

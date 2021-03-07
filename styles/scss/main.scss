@@ -1,0 +1,278 @@
+@import "colors";
+@import "fonts";
+
+$size: 28px;
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+	background-color: $secondary;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 39px;
+	margin-top: $size * 2;
+	margin-bottom: $size * 2;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 39px;
+	margin-top: 0;
+	margin-bottom: $size;
+}
+
+p {
+	font-size: 21px;
+	line-height: 26px;
+	margin-top: 0;
+	margin-bottom: $size;
+}
+
+* {
+	font-family: "Montserrat", sans-serif;
+}
+
+*::selection {
+	background: $blue;
+	color: $light;
+}
+
+// Child of an element that has a blue background unless an h1 or b (exempts the #info card details)
+// It may be cleaner to do this with JS instead of manually exempting h1's and b's
+*.bkg.blue *::selection:not(h1, b) {
+	background: $light;
+	color: $blue;
+}
+
+.blue {
+	color: $blue;
+}
+
+.blue.bkg {
+	background: $blue;
+	color: $light;
+}
+
+.green {
+	color: $green;
+}
+
+.green.bkg {
+	background: $green;
+	color: $dark;
+}
+
+.orange {
+	color: $orange;
+}
+
+.orange.bkg {
+	background: $orange;
+	color: $dark;
+}
+
+.purple {
+	color: $purple;
+}
+
+.purple.bkg {
+	background: $purple;
+	color: $light;
+}
+
+.red {
+	color: $red;
+}
+
+.red.bkg {
+	background: $red;
+	color: $light;
+}
+
+.white {
+	color: $dark;
+}
+.white.bkg {
+	background: $light;
+	color: $dark;
+}
+
+.card {
+	border-radius: $size;
+	padding: $size;
+	position: relative;
+}
+
+.logo {
+	height: $size * 2;
+	user-select: none;
+}
+
+#info {
+	width: $size * 13;
+	height: $size * 16;
+	margin: $size;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#about {
+	width: $size * 15;
+	height: $size * 18;
+	margin: $size;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: $size * 2;
+	display: inline-block;
+	padding: $size;
+	vertical-align: top;
+}
+
+// Breakpoint: $size * 38
+#header {
+	width: calc(100% - $size * 2);
+	height: fit-content;
+	padding: $size;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	text-decoration: none;
+	color: $dark;
+	font-size: $size;
+	line-height: $size;
+	padding-right: $size / 2;
+}
+
+#icons {
+	user-select: none;
+}
+
+.button {
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 26px;
+	border-radius: $size / 2;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+}
+
+.material-icons-round {
+	font-size: $size;
+	line-height: $size * 2;
+	user-select: none;
+}
+
+#contact {
+	width: $size * 10;
+	height: $size * 2;
+	line-height: $size * 2;
+	position: absolute;
+	bottom: $size;
+}
+
+#download {
+	right: $size;
+	bottom: $size;
+	position: absolute;
+	width: $size * 2;
+	height: $size * 2;
+}
+
+#labels {
+	color: $dark;
+	padding: $size;
+
+	h2 {
+		margin: $size;
+		width: $size * 13;
+	}
+
+	p {
+		margin-left: $size;
+		margin-right: $size;
+		margin-bottom: 0;
+		width: $size * 13;
+	}
+}
+
+#projects {
+	width: calc(100% - #{$size} * 2);
+	padding: $size;
+	padding-top: 0;
+
+	display: inline-grid;
+	grid-template-columns: repeat(auto-fit, $size * 11);
+	column-gap: $size * 2;
+
+	.project {
+		width: $size * 9;
+		height: $size * 9;
+		margin: $size;
+		position: relative;
+		cursor: pointer;
+		display: inline-block;
+
+		.gist {
+			display: none;
+		}
+
+		div {
+			bottom: 0;
+			position: absolute;
+			width: $size * 9;
+		}
+
+		h2 {
+			margin-bottom: $size / 2;
+		}
+
+		.material-icons-round {
+			line-height: $size;
+			position: absolute;
+			right: $size;
+		}
+	}
+
+	.project:hover {
+		box-shadow: 0 0 0 $size $blue;
+
+		.gist {
+			display: block;
+			position: absolute;
+			height: calc(100% - $size * 2);
+			width: $size * 11;
+			padding-top: $size;
+			padding-bottom: $size;
+			top: 0;
+			right: -$size * 13;
+			border-radius: 0 $size $size 0;
+			box-shadow: 0 0 0 $size $blue;
+			z-index: 99;
+
+			p {
+				width: $size * 10;
+			}
+
+			h2 {
+				width: $size * 10;
+			}
+		}
+	}
+
+	.project:hover::after {
+		width: 100%;
+		height: 100%;
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		border-radius: $size 0 0 $size;
+		box-shadow: 0 0 0 $size $blue;
+	}
+}
