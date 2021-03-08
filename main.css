@@ -8,6 +8,48 @@ html, body{
     src: url('fonts/icons.woff'),
          url('fonts/icons.eot');
 }
+
+#banner {
+    color: #2B2C30;
+    font-family: 'Montserrat';
+    height: fit-content;
+    padding: 16px;
+    font-size: 14px;
+    text-align: center;
+    width: calc(100% - 32px);
+    position: relative;
+}
+
+#close {
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+
+.space {
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+}
+
+.button:link, button:hover, .button:visited {
+    font-weight: 600;
+    color: white;
+    background: #2F80ED;
+    height: 14px;
+    line-height: 14px;
+    display: inline-block;
+    padding: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 14px;
+    margin-top: 7px;
+    border-radius: 7px;
+    user-select: none;
+}
+
 #one{
     height: 100vh;
 }
