@@ -25,6 +25,7 @@ function adjustPopoutsV2() {
     })
     document.querySelectorAll('.project').forEach(project => {
         let right = project.getBoundingClientRect().right;
+        // 392px is approx size of a grid item with padding and gutters
         if (right + 392 > window.innerWidth) {
             project.classList.toggle('right');
         }
