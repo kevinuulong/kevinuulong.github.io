@@ -40,9 +40,9 @@ p {
 	color: $light;
 }
 
-// Child of an element that has a blue background unless an h1 or b (exempts the #info card details)
+// Child of an element that has a blue background unless an h1 or b (exempts the #info card details), deals with blue gist bkgs
 // It may be cleaner to do this with JS instead of manually exempting h1's and b's
-*.bkg.blue *::selection:not(h1, b) {
+*.bkg.blue *::selection:not(h1, b), *.gist-blue .gist ::selection {
 	background: $light;
 	color: $blue;
 }
@@ -239,8 +239,7 @@ p {
 		}
 	}
 
-	.project:hover {
-		box-shadow: 0 0 0 $size $blue;
+	.project:hover:not([class*='highlighted']) {
 
 		.gist {
 			display: block;
@@ -252,7 +251,6 @@ p {
 			top: 0;
 			right: -$size * 13;
 			border-radius: 0 $size $size 0;
-			box-shadow: 0 0 0 $size $blue;
 			z-index: 99;
 
 			p {
@@ -265,7 +263,7 @@ p {
 		}
 	}
 
-	.project:hover::after {
+	.project:hover:not([class*='highlighted'])::after {
 		width: 100%;
 		height: 100%;
 		content: "";
@@ -273,6 +271,128 @@ p {
 		top: 0;
 		left: 0;
 		border-radius: $size 0 0 $size;
+	}
+
+	.project.right:hover {
+		.gist {
+			right: $size * 12;
+			border-radius: $size 0 0 $size;
+			padding-left: $size;
+		}
+	}
+
+	.project.right:hover::after {
+		border-radius: 0 $size $size 0;
+	}
+
+	// Gist Colors
+	// Blue
+	.gist-blue {
+		.gist {
+			background: $blue;
+			color: $light;
+		}
+	}
+	.gist-blue:hover:not([class*='highlighted']) {
 		box-shadow: 0 0 0 $size $blue;
+
+		.gist {
+			box-shadow: 0 0 0 $size $blue;
+		}
+	}
+
+	.gist-blue:hover::after {
+		box-shadow: 0 0 0 $size $blue;
+	}
+
+	// Green
+	.gist-green:hover::after {
+		box-shadow: 0 0 0 $size $green;
+	}
+
+	.gist-green {
+		.gist {
+			background: $green;
+			color: $dark;
+		}
+	}
+	.gist-green:hover:not([class*='highlighted']) {
+		box-shadow: 0 0 0 $size $green;
+
+		.gist {
+			box-shadow: 0 0 0 $size $green;
+		}
+	}
+
+	.gist-green:hover::after {
+		box-shadow: 0 0 0 $size $green;
+	}
+
+	// Orange
+	.gist-orange {
+		.gist {
+			background: $orange;
+			color: $dark;
+		}
+	}
+	.gist-orange:hover:not([class*='highlighted']) {
+		box-shadow: 0 0 0 $size $orange;
+
+		.gist {
+			box-shadow: 0 0 0 $size $orange;
+		}
+	}
+
+	.gist-orange:hover::after {
+		box-shadow: 0 0 0 $size $orange;
+	}
+
+	// Purple
+	.gist-purple {
+		.gist {
+			background: $purple;
+			color: $light;
+		}
+	}
+	.gist-purple:hover:not([class*='highlighted']) {
+		box-shadow: 0 0 0 $size $purple;
+
+		.gist {
+			box-shadow: 0 0 0 $size $purple;
+		}
+	}
+
+	.gist-purple:hover::after {
+		box-shadow: 0 0 0 $size $purple;
+	}
+
+	// Red
+	.gist-red {
+		.gist {
+			background: $red;
+			color: $light;
+		}
+	}
+	.gist-red:hover:not([class*='highlighted']) {
+		box-shadow: 0 0 0 $size $red;
+
+		.gist {
+			box-shadow: 0 0 0 $size $red;
+		}
+	}
+
+	.gist-red:hover::after {
+		box-shadow: 0 0 0 $size $red;
+	}
+
+	.highlighted-horizontal {
+		grid-column: span 2;
+		width: $size * 22;
+	}
+
+	.highlighted-vertical {
+		grid-row: span 2;
+		width: $size * 9;
+		height: $size * 22;
 	}
 }

@@ -85,12 +85,12 @@ p {
   color: #FFFFFF;
 }
 
-*.bkg.blue *::-moz-selection:not(h1, b) {
+*.bkg.blue *::-moz-selection:not(h1, b), *.gist-blue .gist ::-moz-selection {
   background: #FFFFFF;
   color: #2F80ED;
 }
 
-*.bkg.blue *::selection:not(h1, b) {
+*.bkg.blue *::selection:not(h1, b), *.gist-blue .gist ::selection {
   background: #FFFFFF;
   color: #2F80ED;
 }
@@ -304,12 +304,7 @@ p {
   right: 28px;
 }
 
-#projects .project:hover {
-  -webkit-box-shadow: 0 0 0 28px #2F80ED;
-          box-shadow: 0 0 0 28px #2F80ED;
-}
-
-#projects .project:hover .gist {
+#projects .project:hover:not([class*='highlighted']) .gist {
   display: block;
   position: absolute;
   height: calc(100% - $size * 2);
@@ -319,20 +314,18 @@ p {
   top: 0;
   right: -364px;
   border-radius: 0 28px 28px 0;
-  -webkit-box-shadow: 0 0 0 28px #2F80ED;
-          box-shadow: 0 0 0 28px #2F80ED;
   z-index: 99;
 }
 
-#projects .project:hover .gist p {
+#projects .project:hover:not([class*='highlighted']) .gist p {
   width: 280px;
 }
 
-#projects .project:hover .gist h2 {
+#projects .project:hover:not([class*='highlighted']) .gist h2 {
   width: 280px;
 }
 
-#projects .project:hover::after {
+#projects .project:hover:not([class*='highlighted'])::after {
   width: 100%;
   height: 100%;
   content: "";
@@ -340,7 +333,131 @@ p {
   top: 0;
   left: 0;
   border-radius: 28px 0 0 28px;
+}
+
+#projects .project.right:hover .gist {
+  right: 336px;
+  border-radius: 28px 0 0 28px;
+  padding-left: 28px;
+}
+
+#projects .project.right:hover::after {
+  border-radius: 0 28px 28px 0;
+}
+
+#projects .gist-blue .gist {
+  background: #2F80ED;
+  color: #FFFFFF;
+}
+
+#projects .gist-blue:hover:not([class*='highlighted']) {
   -webkit-box-shadow: 0 0 0 28px #2F80ED;
           box-shadow: 0 0 0 28px #2F80ED;
+}
+
+#projects .gist-blue:hover:not([class*='highlighted']) .gist {
+  -webkit-box-shadow: 0 0 0 28px #2F80ED;
+          box-shadow: 0 0 0 28px #2F80ED;
+}
+
+#projects .gist-blue:hover::after {
+  -webkit-box-shadow: 0 0 0 28px #2F80ED;
+          box-shadow: 0 0 0 28px #2F80ED;
+}
+
+#projects .gist-green:hover::after {
+  -webkit-box-shadow: 0 0 0 28px #2DDB73;
+          box-shadow: 0 0 0 28px #2DDB73;
+}
+
+#projects .gist-green .gist {
+  background: #2DDB73;
+  color: #2B2C30;
+}
+
+#projects .gist-green:hover:not([class*='highlighted']) {
+  -webkit-box-shadow: 0 0 0 28px #2DDB73;
+          box-shadow: 0 0 0 28px #2DDB73;
+}
+
+#projects .gist-green:hover:not([class*='highlighted']) .gist {
+  -webkit-box-shadow: 0 0 0 28px #2DDB73;
+          box-shadow: 0 0 0 28px #2DDB73;
+}
+
+#projects .gist-green:hover::after {
+  -webkit-box-shadow: 0 0 0 28px #2DDB73;
+          box-shadow: 0 0 0 28px #2DDB73;
+}
+
+#projects .gist-orange .gist {
+  background: #F2994A;
+  color: #2B2C30;
+}
+
+#projects .gist-orange:hover:not([class*='highlighted']) {
+  -webkit-box-shadow: 0 0 0 28px #F2994A;
+          box-shadow: 0 0 0 28px #F2994A;
+}
+
+#projects .gist-orange:hover:not([class*='highlighted']) .gist {
+  -webkit-box-shadow: 0 0 0 28px #F2994A;
+          box-shadow: 0 0 0 28px #F2994A;
+}
+
+#projects .gist-orange:hover::after {
+  -webkit-box-shadow: 0 0 0 28px #F2994A;
+          box-shadow: 0 0 0 28px #F2994A;
+}
+
+#projects .gist-purple .gist {
+  background: #9B51E0;
+  color: #FFFFFF;
+}
+
+#projects .gist-purple:hover:not([class*='highlighted']) {
+  -webkit-box-shadow: 0 0 0 28px #9B51E0;
+          box-shadow: 0 0 0 28px #9B51E0;
+}
+
+#projects .gist-purple:hover:not([class*='highlighted']) .gist {
+  -webkit-box-shadow: 0 0 0 28px #9B51E0;
+          box-shadow: 0 0 0 28px #9B51E0;
+}
+
+#projects .gist-purple:hover::after {
+  -webkit-box-shadow: 0 0 0 28px #9B51E0;
+          box-shadow: 0 0 0 28px #9B51E0;
+}
+
+#projects .gist-red .gist {
+  background: #EB5757;
+  color: #FFFFFF;
+}
+
+#projects .gist-red:hover:not([class*='highlighted']) {
+  -webkit-box-shadow: 0 0 0 28px #EB5757;
+          box-shadow: 0 0 0 28px #EB5757;
+}
+
+#projects .gist-red:hover:not([class*='highlighted']) .gist {
+  -webkit-box-shadow: 0 0 0 28px #EB5757;
+          box-shadow: 0 0 0 28px #EB5757;
+}
+
+#projects .gist-red:hover::after {
+  -webkit-box-shadow: 0 0 0 28px #EB5757;
+          box-shadow: 0 0 0 28px #EB5757;
+}
+
+#projects .highlighted-horizontal {
+  grid-column: span 2;
+  width: 616px;
+}
+
+#projects .highlighted-vertical {
+  grid-row: span 2;
+  width: 252px;
+  height: 616px;
 }
 /*# sourceMappingURL=main.css.map */
