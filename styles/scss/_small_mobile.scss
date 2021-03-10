@@ -2,8 +2,7 @@
 @import "colors";
 @import "fonts";
 
-h1,
-b {
+h1, b {
 	font-size: 28px;
 	line-height: 33px;
 	margin-top: $size;
@@ -27,16 +26,21 @@ p {
 #info {
 	width: $size * 8;
 	height: $size * 14;
-	margin-top: $size;
+	margin: auto;
+    margin-top: $size;
 	display: inline-block;
 }
 
 #header {
 	width: 100%;
+    text-align: center;
 	height: fit-content;
 	padding: 0;
-	padding-bottom: $size;
-	position: relative;
+    padding-bottom: $size;
+}
+
+#header * {
+    text-align: initial;
 }
 
 #contact {
@@ -46,8 +50,7 @@ p {
 	bottom: $size;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
 	padding-right: 7px;
 }
 
@@ -68,23 +71,26 @@ p {
 }
 
 #about {
-	width: calc(100% - #{$size * 2});
-	@media (min-width: 800px) {
-		width: $size * 15;
-	}
-	height: auto;
-	margin-top: $size;
-	display: inline-block;
-	padding: 0;
+	width: $size * 9;
+    height: auto;
+	margin: auto;
+    margin-top: $size;
+	display: inherit;
+    padding: 0;
+
+    p:nth-of-type(2) {
+        margin-bottom: 0;
+    }
 }
 
 #labels {
-	padding: $size;
-	width: $size * 9;
+	padding: 0;
+    width: $size * 9;
+    margin: auto;
 
 	h2 {
 		margin: $size;
-		margin-left: auto;
+        margin-left: auto;
 		width: $size * 9;
 	}
 
@@ -99,20 +105,20 @@ p {
 }
 
 #projects {
-	width: 100%;
+	width: calc(100%);
 	padding: 0;
 	padding-top: 0;
-
 	
-	grid-template-columns: repeat(auto-fit, $size * 11);
-	column-gap: $size * 2;
+	grid-template-columns: 1fr;
+    margin: auto;
 	display: inline-grid;
 
 	.project {
-		width: $size * 9;
-		height: $size * 9;
-		margin-bottom: $size;
-		margin-top: $size;
+		width: $size * 7;
+		height: $size * 7;
+		margin: auto;
+        margin-bottom: $size;
+        margin-top: $size;
 		-webkit-tap-highlight-color: transparent;
 		user-select: none;
 
@@ -126,7 +132,7 @@ p {
 		div {
 			bottom: 0;
 			position: absolute;
-			width: $size * 8;
+			width: $size * 7;
 		}
 
 		h2 {
@@ -140,7 +146,8 @@ p {
 		}
 	}
 
-	.project:not([class*="highlighted"]) {
+	.project:not([class*='highlighted']) {
+		
 		.material-icons-round {
 			visibility: hidden;
 		}
@@ -150,24 +157,26 @@ p {
 		}
 	}
 
-	.project:hover:not([class*="highlighted"]) {
+	.project:hover:not([class*='highlighted']) {
+
 		.gist {
 			display: block;
 			position: absolute;
 			height: calc(100% - $size * 2);
-			width: $size * 9;
-			padding: $size;
+			width: $size * 8;
+			padding-top: $size;
+			padding-bottom: $size;
 			top: 0;
 			right: 0;
 			border-radius: $size;
 			z-index: 99;
 
 			p {
-				width: $size * 8;
+				width: $size * 7;
 			}
 
 			h2 {
-				width: $size * 8;
+				width: $size * 7;
 			}
 		}
 
@@ -181,15 +190,13 @@ p {
 		}
 	}
 
-	.project.gist-blue:hover:not([class*="highlighted"]),
-	.project.gist-red:hover:not([class*="highlighted"]),
-	.project.gist-purple:hover:not([class*="highlighted"]) {
+	.project.gist-blue:hover:not([class*='highlighted']), .project.gist-red:hover:not([class*='highlighted']), .project.gist-purple:hover:not([class*='highlighted']) {
 		.material-icons-round {
 			color: $light;
 		}
 	}
 
-	.project:hover:not([class*="highlighted"])::after {
+	.project:hover:not([class*='highlighted'])::after {
 		display: none;
 	}
 
@@ -205,8 +212,7 @@ p {
 		border-radius: 0 $size $size 0;
 	}
 
-	[class*="gist"]:hover *,
-	[class*="gist"]:hover {
+	[class*='gist']:hover *, [class*='gist']:hover {
 		box-shadow: none !important;
 	}
 
@@ -253,13 +259,13 @@ p {
 
 	.highlighted-horizontal {
 		grid-column: auto;
-		height: $size * 9;
-		width: $size * 9;
+        height: $size * 7;
+		width: $size * 7;
 	}
 
 	.highlighted-vertical {
 		grid-row: auto;
-		width: $size * 9;
-		height: $size * 9;
+		width: $size * 7;
+		height: $size * 7;
 	}
 }

@@ -10,6 +10,10 @@ html {
 	background-color: $secondary;
 }
 
+a {
+	text-decoration: none;
+}
+
 h1 {
 	font-size: 32px;
 	line-height: 39px;
@@ -125,7 +129,7 @@ p {
 	margin: $size;
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-left: $size * 2;
+	margin-left: $size;
 	display: inline-block;
 	padding: $size;
 	vertical-align: top;
@@ -216,6 +220,8 @@ p {
 		position: relative;
 		cursor: pointer;
 		display: inline-block;
+		background-repeat: no-repeat;
+		background-size: cover;
 
 		.gist {
 			display: none;
@@ -396,6 +402,10 @@ p {
 	}
 }
 
-@media screen and (max-width: $size * 38) {
+@media screen and (max-width: $size * 38) and (min-width: 400px){
 	@import "mobile";
+}
+
+@media screen and (max-width: 400px) {
+	@import "small_mobile";
 }

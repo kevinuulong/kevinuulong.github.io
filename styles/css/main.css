@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons+Round");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons+Round");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons+Round");
 @font-face {
   font-family: "social-icons";
   src: url("/fonts/social-icons.eot?1edmoo");
@@ -50,6 +52,10 @@ html {
   padding: 0;
   margin: 0;
   background-color: #F0F0F6;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -179,7 +185,7 @@ p {
   margin: 28px;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 56px;
+  margin-left: 28px;
   display: inline-block;
   padding: 28px;
   vertical-align: top;
@@ -284,6 +290,8 @@ p {
   position: relative;
   cursor: pointer;
   display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #projects .project .gist {
@@ -463,7 +471,258 @@ p {
   height: 616px;
 }
 
-@media screen and (max-width: 1064px) {
+@media screen and (max-width: 1064px) and (min-width: 400px) {
+  @font-face {
+    font-family: "social-icons";
+    src: url("/fonts/social-icons.eot?1edmoo");
+    src: url("/fonts/social-icons.eot?1edmoo#iefix") format("embedded-opentype"), url("/fonts/social-icons.ttf?1edmoo") format("truetype"), url("/fonts/social-icons.woff?1edmoo") format("woff"), url("/fonts/social-icons.svg?1edmoo#social-icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  [class^="icon-"],
+  [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "social-icons" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .icon-github:before {
+    content: "\e900";
+  }
+  .icon-linkedin:before {
+    content: "\e901";
+  }
+  .icon-gmail:before {
+    content: "\e902";
+  }
+  .icon-twitter:before {
+    content: "\e903";
+  }
+  .icon-instagram:before {
+    content: "\e904";
+  }
+  h1,
+  b {
+    font-size: 28px;
+    line-height: 33px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 33px;
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+  p {
+    font-size: 19px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+  #info {
+    width: 224px;
+    height: 392px;
+    margin-top: 28px;
+    display: inline-block;
+  }
+  #header {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0;
+    padding-bottom: 28px;
+    position: relative;
+  }
+  #contact {
+    width: 161px;
+    height: 49px;
+    line-height: 49px;
+    bottom: 28px;
+  }
+  [class^="icon-"],
+  [class*=" icon-"] {
+    padding-right: 7px;
+  }
+  #download {
+    width: 49px;
+    height: 49px;
+  }
+  #download * {
+    line-height: 49px;
+  }
+  .button {
+    font-size: 19px;
+    line-height: 24px;
+    border-radius: 14px;
+    text-align: center !important;
+  }
+  #about {
+    width: calc(100% - 56px);
+    height: auto;
+    margin-top: 28px;
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1064px) and (min-width: 400px) and (min-width: 800px) {
+  #about {
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 1064px) and (min-width: 400px) {
+  #labels {
+    padding: 28px;
+    width: 252px;
+  }
+  #labels h2 {
+    margin: 28px;
+    margin-left: auto;
+    width: 252px;
+  }
+  #labels p {
+    margin: auto;
+    width: 252px;
+  }
+  .logo {
+    height: 28px;
+  }
+  #projects {
+    width: 100%;
+    padding: 0;
+    padding-top: 0;
+    -ms-grid-columns: (308px)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 308px);
+    -webkit-column-gap: 56px;
+            column-gap: 56px;
+    display: -ms-inline-grid;
+    display: inline-grid;
+  }
+  #projects .project {
+    width: 252px;
+    height: 252px;
+    margin-bottom: 28px;
+    margin-top: 28px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  #projects .project .gist {
+    display: none;
+  }
+  #projects .project .gist p {
+    font-size: 16px;
+  }
+  #projects .project div {
+    bottom: 0;
+    position: absolute;
+    width: 224px;
+  }
+  #projects .project h2 {
+    margin-bottom: 14px;
+  }
+  #projects .project .material-icons-round {
+    line-height: 28px;
+    position: absolute;
+    right: 28px;
+  }
+  #projects .project:not([class*="highlighted"]) .material-icons-round {
+    visibility: hidden;
+  }
+  #projects .project:not([class*="highlighted"]) .material-icons-round::after {
+    content: "flip";
+    visibility: visible;
+  }
+  #projects .project:hover:not([class*="highlighted"]) .gist {
+    display: block;
+    position: absolute;
+    height: calc(100% - $size * 2);
+    width: 252px;
+    padding: 28px;
+    top: 0;
+    right: 0;
+    border-radius: 28px;
+    z-index: 99;
+  }
+  #projects .project:hover:not([class*="highlighted"]) .gist p {
+    width: 224px;
+  }
+  #projects .project:hover:not([class*="highlighted"]) .gist h2 {
+    width: 224px;
+  }
+  #projects .project:hover:not([class*="highlighted"]) .material-icons-round {
+    visibility: visible;
+    z-index: 100;
+  }
+  #projects .project:hover:not([class*="highlighted"]) .material-icons-round::after {
+    content: "";
+  }
+  #projects .project.gist-blue:hover:not([class*="highlighted"]) .material-icons-round,
+  #projects .project.gist-red:hover:not([class*="highlighted"]) .material-icons-round,
+  #projects .project.gist-purple:hover:not([class*="highlighted"]) .material-icons-round {
+    color: #FFFFFF;
+  }
+  #projects .project:hover:not([class*="highlighted"])::after {
+    display: none;
+  }
+  #projects .project.right:hover .gist {
+    right: 0;
+    border-radius: 28px;
+    padding-left: 28px;
+  }
+  #projects .project.right:hover::after {
+    border-radius: 0 28px 28px 0;
+  }
+  #projects [class*="gist"]:hover *,
+  #projects [class*="gist"]:hover {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  #projects .gist-blue .gist {
+    background: #2F80ED;
+    color: #FFFFFF;
+  }
+  #projects .gist-green .gist {
+    background: #2DDB73;
+    color: #2B2C30;
+  }
+  #projects .gist-orange .gist {
+    background: #F2994A;
+    color: #2B2C30;
+  }
+  #projects .gist-purple .gist {
+    background: #9B51E0;
+    color: #FFFFFF;
+  }
+  #projects .gist-red .gist {
+    background: #EB5757;
+    color: #FFFFFF;
+  }
+  #projects .highlighted-horizontal {
+    grid-column: auto;
+    height: 252px;
+    width: 252px;
+  }
+  #projects .highlighted-vertical {
+    grid-row: auto;
+    width: 252px;
+    height: 252px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   @font-face {
     font-family: "social-icons";
     src: url("/fonts/social-icons.eot?1edmoo");
@@ -503,7 +762,7 @@ p {
   h1, b {
     font-size: 28px;
     line-height: 33px;
-    margin-top: 56px;
+    margin-top: 28px;
     margin-bottom: 28px;
   }
   h2 {
@@ -513,8 +772,8 @@ p {
     margin-bottom: 28px;
   }
   p {
-    font-size: 21px;
-    line-height: 26px;
+    font-size: 19px;
+    line-height: 24px;
     margin-top: 0;
     margin-bottom: 28px;
   }
@@ -524,7 +783,6 @@ p {
     margin: auto;
     margin-top: 28px;
     display: inline-block;
-    vertical-align: top;
   }
   #header {
     width: 100%;
@@ -539,18 +797,26 @@ p {
     text-align: initial;
   }
   #contact {
-    width: 168px;
-    height: 56px;
-    line-height: 56px;
-    position: absolute;
+    width: 161px;
+    height: 49px;
+    line-height: 49px;
     bottom: 28px;
   }
+  [class^="icon-"], [class*=" icon-"] {
+    padding-right: 7px;
+  }
   #download {
-    right: 28px;
-    bottom: 28px;
-    position: absolute;
-    width: 56px;
-    height: 56px;
+    width: 49px;
+    height: 49px;
+  }
+  #download * {
+    line-height: 49px;
+  }
+  .button {
+    font-size: 19px;
+    line-height: 24px;
+    border-radius: 14px;
+    text-align: center !important;
   }
   #about {
     width: 252px;
@@ -559,13 +825,11 @@ p {
     margin-top: 28px;
     display: inherit;
     padding: 0;
-    vertical-align: top;
   }
-  #about p {
+  #about p:nth-of-type(2) {
     margin-bottom: 0;
   }
   #labels {
-    color: #2B2C30;
     padding: 0;
     width: 252px;
     margin: auto;
@@ -581,22 +845,16 @@ p {
   }
   .logo {
     height: 28px;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
   }
   #projects {
-    width: calc(100% - 28px * 2);
+    width: calc(100%);
     padding: 0;
     padding-top: 0;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    margin: auto;
     display: -ms-inline-grid;
     display: inline-grid;
-    -ms-grid-columns: (308px)[auto-fit];
-        grid-template-columns: repeat(auto-fit, 308px);
-    -webkit-column-gap: 56px;
-            column-gap: 56px;
-    margin: auto;
   }
   #projects .project {
     width: 196px;
@@ -604,12 +862,17 @@ p {
     margin: auto;
     margin-bottom: 28px;
     margin-top: 28px;
-    position: relative;
-    cursor: pointer;
-    display: inline-block;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   #projects .project .gist {
     display: none;
+  }
+  #projects .project .gist p {
+    font-size: 16px;
   }
   #projects .project div {
     bottom: 0;
@@ -624,124 +887,75 @@ p {
     position: absolute;
     right: 28px;
   }
+  #projects .project:not([class*='highlighted']) .material-icons-round {
+    visibility: hidden;
+  }
+  #projects .project:not([class*='highlighted']) .material-icons-round::after {
+    content: "flip";
+    visibility: visible;
+  }
   #projects .project:hover:not([class*='highlighted']) .gist {
     display: block;
     position: absolute;
     height: calc(100% - $size * 2);
-    width: 308px;
+    width: 224px;
     padding-top: 28px;
     padding-bottom: 28px;
     top: 0;
-    right: -364px;
-    border-radius: 0 28px 28px 0;
+    right: 0;
+    border-radius: 28px;
     z-index: 99;
   }
   #projects .project:hover:not([class*='highlighted']) .gist p {
-    width: 280px;
+    width: 196px;
   }
   #projects .project:hover:not([class*='highlighted']) .gist h2 {
-    width: 280px;
+    width: 196px;
+  }
+  #projects .project:hover:not([class*='highlighted']) .material-icons-round {
+    visibility: visible;
+    z-index: 100;
+  }
+  #projects .project:hover:not([class*='highlighted']) .material-icons-round::after {
+    content: "";
+  }
+  #projects .project.gist-blue:hover:not([class*='highlighted']) .material-icons-round, #projects .project.gist-red:hover:not([class*='highlighted']) .material-icons-round, #projects .project.gist-purple:hover:not([class*='highlighted']) .material-icons-round {
+    color: #FFFFFF;
   }
   #projects .project:hover:not([class*='highlighted'])::after {
-    width: 100%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 28px 0 0 28px;
+    display: none;
   }
   #projects .project.right:hover .gist {
-    right: 336px;
-    border-radius: 28px 0 0 28px;
+    right: 0;
+    border-radius: 28px;
     padding-left: 28px;
   }
   #projects .project.right:hover::after {
     border-radius: 0 28px 28px 0;
   }
+  #projects [class*='gist']:hover *, #projects [class*='gist']:hover {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
   #projects .gist-blue .gist {
     background: #2F80ED;
     color: #FFFFFF;
-  }
-  #projects .gist-blue:hover:not([class*='highlighted']) {
-    -webkit-box-shadow: 0 0 0 28px #2F80ED;
-            box-shadow: 0 0 0 28px #2F80ED;
-  }
-  #projects .gist-blue:hover:not([class*='highlighted']) .gist {
-    -webkit-box-shadow: 0 0 0 28px #2F80ED;
-            box-shadow: 0 0 0 28px #2F80ED;
-  }
-  #projects .gist-blue:hover::after {
-    -webkit-box-shadow: 0 0 0 28px #2F80ED;
-            box-shadow: 0 0 0 28px #2F80ED;
-  }
-  #projects .gist-green:hover::after {
-    -webkit-box-shadow: 0 0 0 28px #2DDB73;
-            box-shadow: 0 0 0 28px #2DDB73;
   }
   #projects .gist-green .gist {
     background: #2DDB73;
     color: #2B2C30;
   }
-  #projects .gist-green:hover:not([class*='highlighted']) {
-    -webkit-box-shadow: 0 0 0 28px #2DDB73;
-            box-shadow: 0 0 0 28px #2DDB73;
-  }
-  #projects .gist-green:hover:not([class*='highlighted']) .gist {
-    -webkit-box-shadow: 0 0 0 28px #2DDB73;
-            box-shadow: 0 0 0 28px #2DDB73;
-  }
-  #projects .gist-green:hover::after {
-    -webkit-box-shadow: 0 0 0 28px #2DDB73;
-            box-shadow: 0 0 0 28px #2DDB73;
-  }
   #projects .gist-orange .gist {
     background: #F2994A;
     color: #2B2C30;
-  }
-  #projects .gist-orange:hover:not([class*='highlighted']) {
-    -webkit-box-shadow: 0 0 0 28px #F2994A;
-            box-shadow: 0 0 0 28px #F2994A;
-  }
-  #projects .gist-orange:hover:not([class*='highlighted']) .gist {
-    -webkit-box-shadow: 0 0 0 28px #F2994A;
-            box-shadow: 0 0 0 28px #F2994A;
-  }
-  #projects .gist-orange:hover::after {
-    -webkit-box-shadow: 0 0 0 28px #F2994A;
-            box-shadow: 0 0 0 28px #F2994A;
   }
   #projects .gist-purple .gist {
     background: #9B51E0;
     color: #FFFFFF;
   }
-  #projects .gist-purple:hover:not([class*='highlighted']) {
-    -webkit-box-shadow: 0 0 0 28px #9B51E0;
-            box-shadow: 0 0 0 28px #9B51E0;
-  }
-  #projects .gist-purple:hover:not([class*='highlighted']) .gist {
-    -webkit-box-shadow: 0 0 0 28px #9B51E0;
-            box-shadow: 0 0 0 28px #9B51E0;
-  }
-  #projects .gist-purple:hover::after {
-    -webkit-box-shadow: 0 0 0 28px #9B51E0;
-            box-shadow: 0 0 0 28px #9B51E0;
-  }
   #projects .gist-red .gist {
     background: #EB5757;
     color: #FFFFFF;
-  }
-  #projects .gist-red:hover:not([class*='highlighted']) {
-    -webkit-box-shadow: 0 0 0 28px #EB5757;
-            box-shadow: 0 0 0 28px #EB5757;
-  }
-  #projects .gist-red:hover:not([class*='highlighted']) .gist {
-    -webkit-box-shadow: 0 0 0 28px #EB5757;
-            box-shadow: 0 0 0 28px #EB5757;
-  }
-  #projects .gist-red:hover::after {
-    -webkit-box-shadow: 0 0 0 28px #EB5757;
-            box-shadow: 0 0 0 28px #EB5757;
   }
   #projects .highlighted-horizontal {
     grid-column: auto;

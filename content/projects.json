@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Personal Brand Redesign",
+        "blurb": "A major step in a new direction!",
+        "highlight": "highlighted-horizontal",
+        "color": "blue",
+        "gist": "I executed a major personal brand redesign. This very website was a key part of that initiative!",
+        "gistColor": "purple",
+        "href": "https://kevinuulong.com",
+        "bkgImg": ""
+    },
+    {
+        "title": "Personal Brand Redesign",
+        "blurb": "A major step in a new direction!",
+        "color": "purple",
+        "gist": "I executed a major personal brand redesign. This very website was a key part of that initiative!",
+        "gistColor": "purple",
+        "href": "https://kevinuulong.com",
+        "bkgImg": "https://source.unsplash.com/random/672x308"
+    },
+    {
+        "title": "Personal Brand Redesign",
+        "blurb": "A major step in a new direction!",
+        "highlight": "highlighted-vertical",
+        "color": "purple",
+        "gist": "I executed a major personal brand redesign. This very website was a key part of that initiative!",
+        "gistColor": "purple",
+        "href": "https://kevinuulong.com",
+        "bkgImg": "https://source.unsplash.com/random/308x672"
+    }
+]
