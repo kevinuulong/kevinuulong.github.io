@@ -1,31 +1,54 @@
 [
     {
         "title": "Personal Brand Redesign",
-        "blurb": "A major step in a new direction!",
+        "blurb": "An update to reflect my personal growth!",
         "highlight": "highlighted-horizontal",
         "color": "blue",
         "gist": "I executed a major personal brand redesign. This very website was a key part of that initiative!",
-        "gistColor": "purple",
+        "gistColor": "blue",
         "href": "https://kevinuulong.com",
         "bkgImg": ""
     },
     {
-        "title": "Personal Brand Redesign",
-        "blurb": "A major step in a new direction!",
-        "color": "purple",
-        "gist": "I executed a major personal brand redesign. This very website was a key part of that initiative!",
-        "gistColor": "purple",
-        "href": "https://kevinuulong.com",
-        "bkgImg": "https://source.unsplash.com/random/672x308"
+        "title": "GitHub Workshop",
+        "blurb": "A short introductory session to Git & GitHub.",
+        "gist": "I created slides and interactive demos to teach the basics of Git and GitHub. I used these to lead the 2021 Elder GitHub workshop!",
+        "gistColor": "green",
+        "href": "https://slides.kevinuulong.com/s/github/",
+        "bkgImg": ""
     },
     {
-        "title": "Personal Brand Redesign",
-        "blurb": "A major step in a new direction!",
-        "highlight": "highlighted-vertical",
-        "color": "purple",
-        "gist": "I executed a major personal brand redesign. This very website was a key part of that initiative!",
+        "title": "Better Online School Setup",
+        "blurb": "Helping handle the hassle of online school!",
+        "gist": "An award winning desktop app 🥇 to help students organize the large number of online services their teachers use.",
         "gistColor": "purple",
-        "href": "https://kevinuulong.com",
-        "bkgImg": "https://source.unsplash.com/random/308x672"
+        "href": "https://github.com/ElderINTERalliance/boss",
+        "bkgImg": ""
+    },
+    {
+        "title": "Drama Club Show Site",
+        "blurb": "Enabling a virtual audience to meet the cast.",
+        "highlight": "highlighted-vertical",
+        "color": "orange",
+        "gist": "I built a site for a virtual audience to meet the cast of my school's Drama Club. This was my first time working with AMP Stories! ⚡",
+        "gistColor": "blue",
+        "href": "https://github.com/kevinuulong/play",
+        "bkgImg": ""
+    },
+    {
+        "title": "Link Shortner",
+        "blurb": "Building a serverless URL shortener with Airtable!",
+        "gist": "Building my own custom goo.gl replacement! 🔗 This was one of my first forrays into serverless functions.",
+        "gistColor": "red",
+        "href": "https://github.com/kevinuulong/link-shortener",
+        "bkgImg": ""
+    },
+    {
+        "title": "Slack Bio Bot",
+        "blurb": "A serverless Slack bot to provide users' bios!",
+        "gist": "A simple serverless Slack Bot Built for the 2021 Elder INTERalliance GitHub workshop! 👥",
+        "gistColor": "blue",
+        "href": "https://github.com/ElderINTERalliance/bio-bot",
+        "bkgImg": ""
     }
 ]
