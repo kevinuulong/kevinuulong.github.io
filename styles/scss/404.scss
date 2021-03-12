@@ -115,7 +115,7 @@ p {
 
 #box {
     width: $size * 11;
-    height: $size * 11;
+    height: fit-content;
 }
 
 .button {

@@ -171,7 +171,9 @@ p {
 
 #box {
   width: 308px;
-  height: 308px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .button {
