@@ -38,7 +38,7 @@
     {
         "title": "Link Shortner",
         "blurb": "Building a serverless URL shortener with Airtable!",
-        "gist": "Building my own custom goo.gl replacement! 🔗 This was one of my first forrays into serverless functions.",
+        "gist": "Building my own custom goo.gl replacement! 🔗 This was one of my first forays into serverless functions.",
         "gistColor": "red",
         "href": "https://github.com/kevinuulong/link-shortener",
         "bkgImg": ""
@@ -49,6 +49,56 @@
         "gist": "A simple serverless Slack Bot Built for the 2021 Elder INTERalliance GitHub workshop! 👥",
         "gistColor": "blue",
         "href": "https://github.com/ElderINTERalliance/bio-bot",
+        "bkgImg": ""
+    },
+    {
+        "title": "Game of Things",
+        "blurb": "An online clone of the popular card game!",
+        "gist": "One of my first experiences using socket.io to build a realtime multiplayer game! 👪 Perfect for family game night.",
+        "gistColor": "purple",
+        "href": "http://thegameofthings.herokuapp.com/",
+        "bkgImg": ""
+    },
+    {
+        "title": "*67",
+        "blurb": "An anonymous counseling app for schools.",
+        "gist": "A desktop app built for school counselors to assist anonymous students too afraid to otherwise seek help.",
+        "gistColor": "green",
+        "href": "https://github.com/ElderINTERalliance/star-six-seven/",
+        "bkgImg": ""
+    },
+    {
+        "title": "Modern Online Monitor",
+        "blurb": "An allowlist extension for Chromium browsers.",
+        "gist": "Built to keep young kids safe and focused when browsing the internet in schools by only allowing access to approved websites.",
+        "gistColor": "orange",
+        "href": "https://github.com/ElderINTERalliance/MOM/",
+        "bkgImg": ""
+    },
+    {
+        "title": "File Icon Extractor",
+        "blurb": "A node module to extract icons from files!",
+        "highlight": "highlighted-horizontal",
+        "color": "red",
+        "gist": "A simple node module built to extract icons from files of any type.",
+        "gistColor": "red",
+        "href": "https://www.npmjs.com/package/file-icon-extractor",
+        "bkgImg": ""
+    },
+    {
+        "title": "ML Rock Paper Scissors",
+        "blurb": "Rock Paper Scissors with Teachable Machine ✊ ✋ ✌!",
+        "gist": "A modern machine learning twist on a classic game. Designed to review JavaScript and learn about Teachable Machine for Elder's INTERalliance chapter.",
+        "gistColor": "blue",
+        "href": "https://github.com/ElderINTERalliance/ml-rock-paper-scissors",
+        "bkgImg": ""
+    },
+    {
+        "title": "Only Connect",
+        "blurb": "A partial recreation of the popular British quiz show.",
+        "gist": "Built almost entirely without internet to pass time during the long car ride on a road trip. 🚗 Eventually I will build a puzzle loader, but for now it is manual.",
+        "gistColor": "purple",
+        "href": "https://github.com/kevinuulong/only-connect",
         "bkgImg": ""
     }
 ]
