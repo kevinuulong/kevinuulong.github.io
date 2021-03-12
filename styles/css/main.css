@@ -281,6 +281,7 @@ p {
       grid-template-columns: repeat(auto-fit, 308px);
   -webkit-column-gap: 56px;
           column-gap: 56px;
+  grid-auto-flow: dense;
 }
 
 #projects .project {

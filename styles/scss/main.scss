@@ -212,6 +212,7 @@ p {
 	display: inline-grid;
 	grid-template-columns: repeat(auto-fit, $size * 11);
 	column-gap: $size * 2;
+	grid-auto-flow: dense;
 
 	.project {
 		width: $size * 9;
