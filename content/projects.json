@@ -36,7 +36,7 @@
         "bkgImg": ""
     },
     {
-        "title": "Link Shortner",
+        "title": "Link Shortener",
         "blurb": "Building a serverless URL shortener with Airtable!",
         "gist": "Building my own custom goo.gl replacement! 🔗 This was one of my first forays into serverless functions.",
         "gistColor": "red",
