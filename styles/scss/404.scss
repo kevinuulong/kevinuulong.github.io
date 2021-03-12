@@ -1,0 +1,163 @@
+@import "fonts";
+@import "size";
+@import "colors";
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+	background-color: $secondary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 39px;
+	margin-top: $size;
+	margin-bottom: $size;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 39px;
+	margin-top: 0;
+	margin-bottom: $size;
+}
+
+p {
+	font-size: 21px;
+	line-height: 26px;
+	margin-top: 0;
+	margin-bottom: $size;
+}
+
+* {
+	font-family: "Montserrat", sans-serif;
+}
+
+*::selection {
+	background: $blue;
+	color: $light;
+}
+
+// Child of an element that has a blue background unless an h1 or b (exempts the #info card details), deals with blue gist bkgs
+// It may be cleaner to do this with JS instead of manually exempting h1's and b's
+*.bkg.blue *::selection:not(h1, b), *.gist-blue .gist ::selection {
+	background: $light;
+	color: $blue;
+}
+
+.blue {
+	color: $blue;
+}
+
+.blue.bkg {
+	background: $blue;
+	color: $light;
+}
+
+.green {
+	color: $green;
+}
+
+.green.bkg {
+	background: $green;
+	color: $dark;
+}
+
+.orange {
+	color: $orange;
+}
+
+.orange.bkg {
+	background: $orange;
+	color: $dark;
+}
+
+.purple {
+	color: $purple;
+}
+
+.purple.bkg {
+	background: $purple;
+	color: $light;
+}
+
+.red {
+	color: $red;
+}
+
+.red.bkg {
+	background: $red;
+	color: $light;
+}
+
+.white {
+	color: $dark;
+}
+.white.bkg {
+	background: $light;
+	color: $dark;
+}
+
+.card {
+	border-radius: $size;
+	padding: $size;
+	position: relative;
+}
+
+#box {
+    width: $size * 11;
+    height: $size * 11;
+}
+
+.button {
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 26px;
+	border-radius: $size / 2;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+}
+
+#home {
+    width: $size * 11;
+	height: $size * 2;
+	line-height: $size * 2;
+}
+
+@media screen and (max-width: 400px) {
+	#home {
+        width: $size * 8;
+        height: $size * 2;
+        line-height: $size * 2;
+    }
+
+    #box {
+        width: $size * 8;
+        height: fit-content;
+    }
+
+    h1, b {
+        font-size: 28px;
+        line-height: 33px;
+        margin-top: $size / 2;
+        margin-bottom: $size;
+    }
+    
+    h2 {
+        font-size: 28px;
+        line-height: 33px;
+        margin-top: 0;
+        margin-bottom: $size;
+    }
+}
