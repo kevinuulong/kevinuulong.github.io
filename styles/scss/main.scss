@@ -144,8 +144,7 @@ p {
 [class^="icon-"],
 [class*=" icon-"] {
 	text-decoration: none;
-	color: $dark;
-	font-size: $size;
+	height: $size;
 	line-height: $size;
 	padding-right: $size / 2;
 }
