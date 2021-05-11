@@ -390,6 +390,44 @@ p {
 		box-shadow: 0 0 0 $size $red;
 	}
 
+	// White
+	.gist-white {
+		.gist {
+			background: $light;
+			color: $dark;
+		}
+	}
+	.gist-white:hover:not([class*='highlighted']) {
+		box-shadow: 0 0 0 $size $light;
+
+		.gist {
+			box-shadow: 0 0 0 $size $light;
+		}
+	}
+
+	.gist-white:hover::after {
+		box-shadow: 0 0 0 $size $light;
+	}
+
+	// Black
+	.gist-black {
+		.gist {
+			background: $dark;
+			color: $light;
+		}
+	}
+	.gist-black:hover:not([class*='highlighted']) {
+		box-shadow: 0 0 0 $size $dark;
+
+		.gist {
+			box-shadow: 0 0 0 $size $dark;
+		}
+	}
+
+	.gist-black:hover::after {
+		box-shadow: 0 0 0 $size $dark;
+	}
+
 	.highlighted-horizontal {
 		grid-column: span 2;
 		width: $size * 22;

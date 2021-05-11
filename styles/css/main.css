@@ -202,8 +202,7 @@ p {
 [class^="icon-"],
 [class*=" icon-"] {
   text-decoration: none;
-  color: #2B2C30;
-  font-size: 28px;
+  height: 28px;
   line-height: 28px;
   padding-right: 14px;
 }
@@ -459,6 +458,46 @@ p {
 #projects .gist-red:hover::after {
   -webkit-box-shadow: 0 0 0 28px #EB5757;
           box-shadow: 0 0 0 28px #EB5757;
+}
+
+#projects .gist-white .gist {
+  background: #FFFFFF;
+  color: #2B2C30;
+}
+
+#projects .gist-white:hover:not([class*='highlighted']) {
+  -webkit-box-shadow: 0 0 0 28px #FFFFFF;
+          box-shadow: 0 0 0 28px #FFFFFF;
+}
+
+#projects .gist-white:hover:not([class*='highlighted']) .gist {
+  -webkit-box-shadow: 0 0 0 28px #FFFFFF;
+          box-shadow: 0 0 0 28px #FFFFFF;
+}
+
+#projects .gist-white:hover::after {
+  -webkit-box-shadow: 0 0 0 28px #FFFFFF;
+          box-shadow: 0 0 0 28px #FFFFFF;
+}
+
+#projects .gist-black .gist {
+  background: #2B2C30;
+  color: #FFFFFF;
+}
+
+#projects .gist-black:hover:not([class*='highlighted']) {
+  -webkit-box-shadow: 0 0 0 28px #2B2C30;
+          box-shadow: 0 0 0 28px #2B2C30;
+}
+
+#projects .gist-black:hover:not([class*='highlighted']) .gist {
+  -webkit-box-shadow: 0 0 0 28px #2B2C30;
+          box-shadow: 0 0 0 28px #2B2C30;
+}
+
+#projects .gist-black:hover::after {
+  -webkit-box-shadow: 0 0 0 28px #2B2C30;
+          box-shadow: 0 0 0 28px #2B2C30;
 }
 
 #projects .highlighted-horizontal {

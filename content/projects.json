@@ -15,7 +15,7 @@
         "gist": "I executed a major personal brand redesign. This very website was a key part of that initiative!",
         "gistColor": "blue",
         "href": "https://kevinuulong.com",
-        "bkgImg": ""
+        "bkgImg": "./images/thumbs/personalBrandRedesignThumb.svg"
     },
     {
         "title": "GitHub Workshop",
@@ -30,8 +30,7 @@
         "blurb": "Helping handle the hassle of online school!",
         "gist": "An award winning desktop app 🥇 to help students organize the large number of online services their teachers use.",
         "gistColor": "purple",
-        "href": "https://github.com/ElderINTERalliance/boss",
-        "bkgImg": ""
+        "href": "https://github.com/ElderINTERalliance/boss"
     },
     {
         "title": "Drama Club Show Site",
@@ -55,9 +54,10 @@
         "title": "Slack Bio Bot",
         "blurb": "A serverless Slack bot to provide users' bios!",
         "gist": "A simple serverless Slack Bot Built for the 2021 Elder INTERalliance GitHub workshop! 👥",
-        "gistColor": "blue",
+        "gistColor": "black",
         "href": "https://github.com/ElderINTERalliance/bio-bot",
-        "bkgImg": ""
+        "bkgImg": "./images/thumbs/slackBioBot.png",
+        "color": "blue"
     },
     {
         "title": "Game of Things",
