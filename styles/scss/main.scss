@@ -104,6 +104,14 @@ p {
 	color: $dark;
 }
 
+.black {
+	color: $light;
+}
+.black.bkg {
+	background: $dark;
+	color: $light;
+}
+
 .card {
 	border-radius: $size;
 	padding: $size;

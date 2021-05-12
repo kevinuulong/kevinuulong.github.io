@@ -157,6 +157,15 @@ p {
   color: #2B2C30;
 }
 
+.black {
+  color: #FFFFFF;
+}
+
+.black.bkg {
+  background: #2B2C30;
+  color: #FFFFFF;
+}
+
 .card {
   border-radius: 28px;
   padding: 28px;

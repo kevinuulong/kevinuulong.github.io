@@ -28,9 +28,11 @@
     {
         "title": "Better Online School Setup",
         "blurb": "Helping handle the hassle of online school!",
+        "color": "black",
         "gist": "An award winning desktop app 🥇 to help students organize the large number of online services their teachers use.",
         "gistColor": "purple",
-        "href": "https://github.com/ElderINTERalliance/boss"
+        "href": "https://github.com/ElderINTERalliance/boss",
+        "bkgImg": "./images/thumbs/bossThumb.png"
     },
     {
         "title": "Drama Club Show Site",
@@ -54,7 +56,7 @@
         "title": "Slack Bio Bot",
         "blurb": "A serverless Slack bot to provide users' bios!",
         "gist": "A simple serverless Slack Bot Built for the 2021 Elder INTERalliance GitHub workshop! 👥",
-        "gistColor": "black",
+        "gistColor": "white",
         "href": "https://github.com/ElderINTERalliance/bio-bot",
         "bkgImg": "./images/thumbs/slackBioBot.png",
         "color": "blue"
