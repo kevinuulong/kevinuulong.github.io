@@ -1,11 +1,17 @@
 [
     {
+        "title": "Clockify Tray",
+        "blurb": "A simple tray application for recording Clockify sessions.",
+        "gist": "I built a simple Windows tray application to make recording sessions in Clockify easier!",
+        "gistColor": "green",
+        "href": "https://github.com/kevinuulong/clockify-tray"
+    },
+    {
         "title": "Aiken to Forms",
         "blurb": "Easily import and write quizzes for Google Forms.",
         "gist": "I designed a web app to allow teachers to easily create Google Forms quizzes from the Aiken test format.",
         "gistColor": "purple",
-        "href": "https://aiken.kevinuulong.com",
-        "bkgImg": ""
+        "href": "https://aiken.kevinuulong.com"
     },
     {
         "title": "Personal Brand Redesign",
@@ -22,8 +28,7 @@
         "blurb": "A short introductory session to Git & GitHub.",
         "gist": "I created slides and interactive demos to teach the basics of Git and GitHub. I used these to lead the 2021 Elder GitHub workshop!",
         "gistColor": "green",
-        "href": "https://slides.kevinuulong.com/s/github/",
-        "bkgImg": ""
+        "href": "https://slides.kevinuulong.com/s/github/"
     },
     {
         "title": "Better Online School Setup",
@@ -41,16 +46,14 @@
         "color": "orange",
         "gist": "I built a site for a virtual audience to meet the cast of my school's Drama Club. This was my first time working with AMP Stories! ⚡",
         "gistColor": "blue",
-        "href": "https://github.com/kevinuulong/play",
-        "bkgImg": ""
+        "href": "https://github.com/kevinuulong/play"
     },
     {
         "title": "Link Shortener",
         "blurb": "Building a serverless URL shortener with Airtable!",
         "gist": "Building my own custom goo.gl replacement! 🔗 This was one of my first forays into serverless functions.",
         "gistColor": "red",
-        "href": "https://github.com/kevinuulong/link-shortener",
-        "bkgImg": ""
+        "href": "https://github.com/kevinuulong/link-shortener"
     },
     {
         "title": "Slack Bio Bot",
@@ -66,24 +69,21 @@
         "blurb": "An online clone of the popular card game!",
         "gist": "One of my first experiences using socket.io to build a realtime multiplayer game! 👪 Perfect for family game night.",
         "gistColor": "purple",
-        "href": "http://thegameofthings.herokuapp.com/",
-        "bkgImg": ""
+        "href": "http://thegameofthings.herokuapp.com/"
     },
     {
         "title": "*67",
         "blurb": "An anonymous counseling app for schools.",
         "gist": "A desktop app built for school counselors to assist anonymous students too afraid to otherwise seek help.",
         "gistColor": "green",
-        "href": "https://github.com/ElderINTERalliance/star-six-seven/",
-        "bkgImg": ""
+        "href": "https://github.com/ElderINTERalliance/star-six-seven/"
     },
     {
         "title": "Modern Online Monitor",
         "blurb": "An allowlist extension for Chromium browsers.",
         "gist": "Built to keep young kids safe and focused when browsing the internet in schools by only allowing access to approved websites.",
         "gistColor": "orange",
-        "href": "https://github.com/ElderINTERalliance/MOM/",
-        "bkgImg": ""
+        "href": "https://github.com/ElderINTERalliance/MOM/"
     },
     {
         "title": "File Icon Extractor",
@@ -92,23 +92,27 @@
         "color": "red",
         "gist": "A simple node module built to extract icons from files of any type.",
         "gistColor": "red",
-        "href": "https://www.npmjs.com/package/file-icon-extractor",
-        "bkgImg": ""
+        "href": "https://www.npmjs.com/package/file-icon-extractor"
     },
     {
         "title": "ML Rock Paper Scissors",
         "blurb": "Rock Paper Scissors with Teachable Machine ✊ ✋ ✌!",
         "gist": "A modern machine learning twist on a classic game. Designed to review JavaScript and learn about Teachable Machine for Elder's INTERalliance chapter.",
         "gistColor": "blue",
-        "href": "https://github.com/ElderINTERalliance/ml-rock-paper-scissors",
-        "bkgImg": ""
+        "href": "https://github.com/ElderINTERalliance/ml-rock-paper-scissors"
+    },
+    {
+        "title": "Number Memory Game",
+        "blurb": "Trying out Svelte through a number memory game.",
+        "gist": "A simple number based game perfect for improving your short term memory. 🧠 This was also my first time trying out Svelte.",
+        "gistColor": "green",
+        "href": "https://github.com/kevinuulong/memory-game"
     },
     {
         "title": "Only Connect",
         "blurb": "A partial recreation of the popular British quiz show.",
         "gist": "Built almost entirely without internet to pass time during the long car ride on a road trip. 🚗 Eventually I will build a puzzle loader, but for now it is manual.",
         "gistColor": "purple",
-        "href": "https://github.com/kevinuulong/only-connect",
-        "bkgImg": ""
+        "href": "https://github.com/kevinuulong/only-connect"
     }
 ]
