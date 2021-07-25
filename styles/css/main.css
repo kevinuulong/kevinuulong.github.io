@@ -198,6 +198,7 @@ p {
   display: inline-block;
   padding: 28px;
   vertical-align: top;
+  background-color: transparent;
 }
 
 #header {
