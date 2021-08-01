@@ -1,9 +1,18 @@
 [
     {
+        "title": "Audio Player",
+        "blurb": "A dead simple audio player for Windows!",
+        "gist": "Built out of frustration with the monstrosity of Groove on Windows 10 I set out to create a small, fast, and beautiful audio player.",
+        "gistColor": "black",
+        "href": "https://github.com/kevinuulong/audioplayer",
+        "bkgImg": "./images/thumbs/audioPlayer.png",
+        "color": "green"
+    },
+    {
         "title": "Clockify Tray",
         "blurb": "A simple tray application for recording Clockify sessions.",
         "gist": "I built a simple Windows tray application to make recording sessions in Clockify easier!",
-        "gistColor": "green",
+        "gistColor": "red",
         "href": "https://github.com/kevinuulong/clockify-tray"
     },
     {
