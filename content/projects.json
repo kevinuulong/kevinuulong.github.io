@@ -1,12 +1,22 @@
 [
     {
+        "title": "Swim Creator",
+        "blurb": "The easiest way to create well formatted swim practices.",
+        "gist": "A simple desktop app to easily create well formatted swim practices for printing or mobile display!",
+        "bkgImg": "./images/thumbs/swimPractices.png",
+        "color": "blue",
+        "gistColor": "white",
+        "href": "https://github.com/kevinuulong/swim-practice-creator"
+    },
+    {
         "title": "Audio Player",
         "blurb": "A dead simple audio player for Windows!",
         "gist": "Built out of frustration with the monstrosity of Groove on Windows 10 I set out to create a small, fast, and beautiful audio player.",
-        "gistColor": "black",
+        "gistColor": "white",
         "href": "https://github.com/kevinuulong/audioplayer",
-        "bkgImg": "./images/thumbs/audioPlayer.png",
-        "color": "green"
+        "bkgImg": "./images/thumbs/audioPlayerHorizontal.png",
+        "color": "black",
+        "highlight": "highlighted-horizontal"
     },
     {
         "title": "Clockify Tray",
@@ -23,16 +33,6 @@
         "href": "https://aiken.kevinuulong.com"
     },
     {
-        "title": "Personal Brand Redesign",
-        "blurb": "An update to reflect my personal growth!",
-        "highlight": "highlighted-horizontal",
-        "color": "blue",
-        "gist": "I executed a major personal brand redesign. This very website was a key part of that initiative!",
-        "gistColor": "blue",
-        "href": "https://kevinuulong.com",
-        "bkgImg": "./images/thumbs/personalBrandRedesignThumb.svg"
-    },
-    {
         "title": "GitHub Workshop",
         "blurb": "A short introductory session to Git & GitHub.",
         "gist": "I created slides and interactive demos to teach the basics of Git and GitHub. I used these to lead the 2021 Elder GitHub workshop!",
@@ -47,6 +47,16 @@
         "gistColor": "purple",
         "href": "https://github.com/ElderINTERalliance/boss",
         "bkgImg": "./images/thumbs/bossThumb.png"
+    },
+    {
+        "title": "Personal Brand Redesign",
+        "blurb": "An update to reflect my personal growth!",
+        "highlight": "highlighted-horizontal",
+        "color": "blue",
+        "gist": "I executed a major personal brand redesign. This very website was a key part of that initiative!",
+        "gistColor": "blue",
+        "href": "https://kevinuulong.com",
+        "bkgImg": "./images/thumbs/personalBrandRedesignThumb.svg"
     },
     {
         "title": "Drama Club Show Site",
@@ -120,7 +130,7 @@
     {
         "title": "Only Connect",
         "blurb": "A partial recreation of the popular British quiz show.",
-        "gist": "Built almost entirely without internet to pass time during the long car ride on a road trip. 🚗 Eventually I will build a puzzle loader, but for now it is manual.",
+        "gist": "Built almost entirely without internet to pass time during the long car ride on a road trip. 🚗",
         "gistColor": "purple",
         "href": "https://github.com/kevinuulong/only-connect"
     }
