@@ -56,16 +56,18 @@
         "gist": "I executed a major personal brand redesign. This very website was a key part of that initiative!",
         "gistColor": "blue",
         "href": "https://kevinuulong.com",
-        "bkgImg": "./images/thumbs/personalBrandRedesignThumb.svg"
+        "bkgImg": "./images/thumbs/personalBrandRedesignThumb.svg",
+        "responsiveBkg": true
     },
     {
         "title": "Drama Club Show Site",
         "blurb": "Enabling a virtual audience to meet the cast.",
         "highlight": "highlighted-vertical",
-        "color": "orange",
+        "color": "red",
         "gist": "I built a site for a virtual audience to meet the cast of my school's Drama Club. This was my first time working with AMP Stories! ⚡",
         "gistColor": "blue",
-        "href": "https://github.com/kevinuulong/play"
+        "href": "https://github.com/kevinuulong/play",
+        "bkgImg": "./images/thumbs/playVertical.png"
     },
     {
         "title": "Link Shortener",
@@ -101,16 +103,16 @@
         "title": "Modern Online Monitor",
         "blurb": "An allowlist extension for Chromium browsers.",
         "gist": "Built to keep young kids safe and focused when browsing the internet in schools by only allowing access to approved websites.",
-        "gistColor": "orange",
+        "gistColor": "purple",
         "href": "https://github.com/ElderINTERalliance/MOM/"
     },
     {
         "title": "File Icon Extractor",
         "blurb": "A node module to extract icons from files!",
         "highlight": "highlighted-horizontal",
-        "color": "red",
+        "color": "orange",
         "gist": "A simple node module built to extract icons from files of any type.",
-        "gistColor": "red",
+        "gistColor": "orange",
         "href": "https://www.npmjs.com/package/file-icon-extractor"
     },
     {

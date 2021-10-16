@@ -262,4 +262,8 @@ p {
 		width: $size * 9;
 		height: $size * 9;
 	}
+
+	.highlighted-horizontal:not([class*="responsive-background"]), .highlighted-vertical:not([class*="responsive-background"]) {
+		background-image: none !important;
+	}
 }

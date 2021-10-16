@@ -79,6 +79,7 @@ async function loadCards() {
                     gistColor = project.gistColor,
                     gist = project.gist,
                     href = project.href,
+                    responsiveBkg = project.responsiveBkg || false,
                     bkgImg = project.bkgImg || false,
                     card = document.createElement('a'),
                     icon = document.createElement('span'),
@@ -97,6 +98,10 @@ async function loadCards() {
                 }
 
                 card.href = href;
+
+                if (responsiveBkg) {
+                    card.classList.add('responsive-background');
+                }
 
                 if (bkgImg) {
                     card.style.backgroundImage = `url(${bkgImg})`;

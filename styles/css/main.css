@@ -770,6 +770,9 @@ p {
     width: 252px;
     height: 252px;
   }
+  #projects .highlighted-horizontal:not([class*="responsive-background"]), #projects .highlighted-vertical:not([class*="responsive-background"]) {
+    background-image: none !important;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -1016,6 +1019,9 @@ p {
     grid-row: auto;
     width: 196px;
     height: 196px;
+  }
+  #projects .highlighted-horizontal:not([class*="responsive-background"]), #projects .highlighted-vertical:not([class*="responsive-background"]) {
+    background-image: none !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
