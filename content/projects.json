@@ -33,6 +33,16 @@
         "href": "https://aiken.kevinuulong.com"
     },
     {
+        "title": "Link Shortener",
+        "blurb": "Building a serverless URL shortener with Airtable!",
+        "gist": "Building my own custom goo.gl replacement! 🔗 This was one of my first forays into serverless functions.",
+        "gistColor": "red",
+        "color": "green",
+        "highlight": "highlighted-vertical",
+        "href": "https://github.com/kevinuulong/link-shortener",
+        "bkgImg": "./images/thumbs/linkShortenerVertical.png"
+    },
+    {
         "title": "GitHub Workshop",
         "blurb": "A short introductory session to Git & GitHub.",
         "gist": "I created slides and interactive demos to teach the basics of Git and GitHub. I used these to lead the 2021 Elder GitHub workshop!",
@@ -49,17 +59,6 @@
         "bkgImg": "./images/thumbs/bossThumb.png"
     },
     {
-        "title": "Personal Brand Redesign",
-        "blurb": "An update to reflect my personal growth!",
-        "highlight": "highlighted-horizontal",
-        "color": "blue",
-        "gist": "I executed a major personal brand redesign. This very website was a key part of that initiative!",
-        "gistColor": "blue",
-        "href": "https://kevinuulong.com",
-        "bkgImg": "./images/thumbs/personalBrandRedesignThumb.svg",
-        "responsiveBkg": true
-    },
-    {
         "title": "Drama Club Show Site",
         "blurb": "Enabling a virtual audience to meet the cast.",
         "highlight": "highlighted-vertical",
@@ -68,16 +67,6 @@
         "gistColor": "blue",
         "href": "https://github.com/kevinuulong/play",
         "bkgImg": "./images/thumbs/playVertical.png"
-    },
-    {
-        "title": "Link Shortener",
-        "blurb": "Building a serverless URL shortener with Airtable!",
-        "gist": "Building my own custom goo.gl replacement! 🔗 This was one of my first forays into serverless functions.",
-        "gistColor": "red",
-        "color": "green",
-        "highlight": "highlighted-vertical",
-        "href": "https://github.com/kevinuulong/link-shortener",
-        "bkgImg": "./images/thumbs/linkShortenerVertical.png"
     },
     {
         "title": "Slack Bio Bot",
