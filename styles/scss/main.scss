@@ -142,6 +142,11 @@ p {
 	padding: $size;
 	vertical-align: top;
 	background-color: transparent;
+
+	*:link, *:visited {
+		color: $light;
+		text-decoration: underline;
+	}
 }
 
 #header {
@@ -449,7 +454,7 @@ p {
 	}
 }
 
-@media screen and (max-width: $size * 38) and (min-width: 400px){
+@media screen and (max-width: #{$size * 38}) and (min-width: 400px){
 	@import "mobile";
 }
 
