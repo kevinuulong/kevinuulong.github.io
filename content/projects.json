@@ -85,6 +85,16 @@
         "href": "http://thegameofthings.herokuapp.com/"
     },
     {
+        "title": "Minecraft BDS Updater",
+        "blurb": "A simple utility to update Minecraft BDS.",
+        "gist": "A simple Dart script that finds the latest version of Minecraft BDS and installs it while keeping important data safe from being overwritten.",
+        "gistColor": "white",
+        "href": "https://github.com/kevinuulong/bds-updater",
+        "bkgImg": "./images/thumbs/minecraftBDSUpdaterHorizontal.png",
+        "highlight": "highlighted-horizontal",
+        "color": "blue"
+    },
+    {
         "title": "*67",
         "blurb": "An anonymous counseling app for schools.",
         "gist": "A desktop app built for school counselors to assist anonymous students too afraid to otherwise seek help.",
@@ -101,10 +111,9 @@
     {
         "title": "File Icon Extractor",
         "blurb": "A node module to extract icons from files!",
-        "highlight": "highlighted-horizontal",
         "color": "orange",
         "gist": "A simple node module built to extract icons from files of any type.",
-        "gistColor": "orange",
+        "gistColor": "black",
         "href": "https://www.npmjs.com/package/file-icon-extractor"
     },
     {
